@@ -14,6 +14,12 @@ const Navbar = () => {
         <p className="text-white inline-block">rhayBrands</p>
       </div>
       <div className="links mr-2 md:mr-4 lg:mr-6">
+        <Link to="/signup" className="lg:mr-4">
+          <p>Join Us</p>
+        </Link>
+        <Link to="/login" className="lg:mr-4">
+          <p>Log In</p>
+        </Link>
         {/* <Link className="hidden md:" to="/">Shop</Link> */}
         <Link to="/cart">
           <ShoppingCart size={32} />
